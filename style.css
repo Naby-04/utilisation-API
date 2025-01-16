@@ -1,0 +1,40 @@
+* {
+  /* border: 1px solid red; */
+  border: none;
+}
+:root {
+  --primary-color: #ffe0de;
+}
+body {
+  background: var(--primary-color);
+}
+#show {
+  animation: fade-down 0.5s;
+}
+#subBtn {
+  padding: 10px;
+  background: #4d0702;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #4d0702;
+}
+#subBtn:hover {
+  background: #fff;
+  color: #4d0702 !important;
+  border: 1px solid #4d0702 !important;
+}
+p {
+  background: #ffe0de;
+  padding: 10px;
+  border-radius: 10px;
+}
+/* animation */
+@keyframes fade-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px) scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
