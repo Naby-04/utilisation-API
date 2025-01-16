@@ -37,6 +37,7 @@ subButton?.addEventListener("click", function sendrequest(e) {
       son.classList.add("d-block");
       son.classList.add("m-auto");
       son.classList.add("mb-5");
+      son.classList.add("w-50");
       showzone?.appendChild(son);
       // ---------son du mot exit
       // ----------exemples
